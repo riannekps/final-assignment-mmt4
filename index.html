@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/video-js.css">
+
+
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/video.js"></script>
+
+</head>
+
+<body class='light'>
+    <header>
+        <div class="navigation">
+            <img src="img/logo@2x.png" class="logolight">
+            <img src="img/logowit@2x.png" class="logodark">
+            <nav>
+                <ul>
+                    <li><a href="#" id="contact">contact</a></li>
+                    <li><a href="#" id="lesmateriaal">lesmateriaal</a></li>
+                    <li><a href="#" id="info">over ons</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="start">
+            <h1 class="titel">Van beginner naar expert het lesmateriaal brengt je verder</h1>
+            <p class="intro">
+                Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
+                Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                Donec id elit non mi porta gravida at eget metus.
+                Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
+            </p>
+            <img class="bgheader" alt="girl working" src="img/daria-nepriakhina-736026-unsplash-min.jpg">
+        </div>
+    
+    </header>
+
+    <main>
+
+        <div class="informatie">
+            <div class="background">
+                <h2 class="playlist">Playlist</h2>
+                <div id="accordion">
+
+                <h3 class="titelaccordion">Algemene Introductie 
+                    <img class="onzichtbaar class=" vinkje" id="vinkje1" alt="vinkje logo" src="img/tabcheck@2x.png"> 
+                    <img class="introvideo" alt="intro logo" src="img/tab@2x.png">
+                </h3>
+
+                <div class="video">
+                    <div class="buttons">
+                        <button class="rewind" id="rewind1"></button>
+                        <button class="toggle" id="toggle1"></button>
+                        <button class="check" id="check1"></button>
+                    </div>
+                    
+                    <video class="video-js" id='video1' data-setup='{}'>
+                    <source src=http://techslides.com/demos/sample-videos/small.mp4 type=video/mp4> 
+                    </video>
+                </div> 
+                
+                <h3 class="titelaccordion">Workshop 1: Kleuren met code 
+                    <img class="onzichtbaar class=" vinkje" id="vinkje2" alt="vinkje logo" src="img/tabcheck@2x.png"> 
+                    <img class="workshopvideo" alt="workshop logo" src="img/tabworkshop@2x.png">
+                </h3>
+                    
+                <div class="video">
+                    <div class="buttons">
+                        <button class="rewind" id="rewind2"></button>
+                        <button class="toggle" id="toggle2"></button>
+                        <button class="check" id="check2"></button>
+                    </div>
+
+                    <video class="video-js" id='video2' data-setup='{}'>
+                        <source src=http://techslides.com/demos/sample-videos/small.mp4 type=video/mp4>
+                    </video> 
+                </div> 
+                
+                <h3 class="titelaccordion">Workshop 2: vormen maken 
+                    <img class="onzichtbaar" class="onzichtbaar class="vinkje" id="vinkje3" alt="vinkje logo" src="img/tabcheck@2x.png">
+                    <img class="workshopvideo" alt="workshop logo" src="img/tabworkshop@2x.png">
+                    <img class="download" alt="download logo" src="img/tabdownload@2x.png">
+                
+                </h3>
+                
+                <div class="video">
+                    <div class="buttons">
+                        <button class="rewind" id="rewind3"></button>
+                        <button class="toggle" id="toggle3"></button>
+                        <button class="check" id="check3"></button>
+                    </div>
+
+                    <video class="video-js" id='video3' data-setup='{}'>
+                        <source src=http://techslides.com/demos/sample-videos/small.mp4 type=video/mp4> 
+                    </video> 
+                </div> 
+                    
+                <h3 class="titelaccordion">Workshop 3:beweging 
+                    <img class="onzichtbaar class=" vinkje" id="vinkje4" alt="vinkje logo" src="img/tabcheck@2x.png">
+                    <img class="workshopvideo" alt="workshop logo" src="img/tabworkshop@2x.png">
+                    <img class="download" alt="donwload logo" src="img/tabdownload@2x.png">
+                </h3>
+                    
+                <div class="video">
+                    <div class="buttons">
+                        <button class="rewind" id="rewind4"></button>
+                        <button class="toggle" id="toggle4"></button>
+                        <button class="check" id="check4"></button>
+                    </div>
+
+                    <video class="video-js" id='video4' data-setup='{}'>
+                        <source src=http://techslides.com/demos/sample-videos/small.mp4 type=video/mp4> 
+                    </video> 
+                </div> 
+                
+                <h3 class="titelaccordion">
+                    Workshop 4: variabelen gebruiken 
+                    <img class="onzichtbaar class=" vinkje" id="vinkje5" alt="vinkje logo" src="img/tabcheck@2x.png"> 
+                    <img class="workshopvideo" alt="workshop logo" src="img/tabworkshop@2x.png">
+                </h3>
+
+                <div class="video">
+                    <div class="buttons">
+                        <button class="rewind" id="rewind5"></button>
+                        <button class="toggle" id="toggle5"></button>
+                        <button class="check" id="check5"></button>
+                    </div>
+
+                    <video class="video-js" id='video5' data-setup='{}'>
+                    <source src=http://techslides.com/demos/sample-videos/small.mp4 type=video/mp4> 
+                    </video> 
+                </div>
+            </div> 
+            
+            <div id="dialog" title="Goed gedaan!">
+                <p>Je hebt de video volledig bekeken.</p>
+            </div>
+
+            <h2 class="support">support</h2>
+                <p class="helpen">Kom je er niet uit? Wij helpen je graag verder</p>
+
+                    <div class="klaartje1">
+                        <img class="personen" alt="profielfoto" src="img/kal-visuals-592091-unsplash-min.jpg">
+                        <h3 class="naam">Klaartje Klaassen</h3>
+                        <h4 class="taak">Hoofd contactpersoon</h4>
+                        <button href="#" class="email">EMAIL</button>
+                    </div>
+
+                    <div class="klaartje2">
+                        <img class="personen" alt="profielfoto" src="img/giorgio-encinas-781653-unsplash-min.jpg">
+                        <h3 class="naam">Klaartje Klaassen</h3>
+                        <h4 class="taak">Hoofd contactpersoon</h4>
+                        <button href="#" class="email">EMAIL</button>
+                                                    </div>
+
+                    <div class="klaartje3">
+                        <img class="personen" alt="profielfoto" src="img/norman-toth-177973-unsplash-min.jpg">
+                        <h3 class="naam">Klaartje Klaassen</h3>
+                        <h4 class="taak">Hoofd contactpersoon</h4>
+                        <button href="#" class="email">EMAIL</button>
+                    </div>
+
+                    <div class="klaartje4">
+                        <img class="personen" alt="profielfoto" src="img/alina-kovalchuk-1143928-unsplash-min.jpg">
+                        <h3 class="naam">Klaartje Klaassen</h3>
+                        <h4 class="taak">Hoofd contactpersoon</h4>
+                        <button href="#" class="email">EMAIL</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="expertprogramma">
+                <h2 class="uitdaging">Klaar voor de volgende uitdaging?</h2>
+                <p class="gevorderden">In ons expertprogramma vind je lessen voor gevorderden</p>
+                <button class="knop">KOM MAAR OP</button>
+                <img class="bgprogramma" alt="girlworking" src="img/nicole-wolf-1339717-unsplash-min.jpg">
+            </div>
+    </main>
+
+    <footer>
+        <button id="toggledark" class="switch">
+            <input type="checkbox">
+            <span class="slider"></span>
+        </button>
+
+        <h5 class="theme">SWITCH THEME</h5>
+    </footer>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
